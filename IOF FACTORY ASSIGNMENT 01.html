@@ -1,0 +1,134 @@
+<!DOCKTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid #000000;
+            text-align: left;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 75%;
+        }
+        
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+
+</head>
+</body>
+
+<h2>The Water Tank Problem</h2>
+
+<p>The Solution To The Problem</p>
+
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="yellow"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="yellow"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="yellow"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="lightskyblue"></td>
+        <td bgcolor="yellow"></td>
+        <td bgcolor="yellow"></td>
+        <td></td>
+    </tr>
+</table>
+
+<script src="path/to/vanilla.js"></script>
+
+<p id="demo"></p>
+
+<script>
+    const level = [0, 4, 0, 0, 0, 6, 0, 6, 4, 0];
+
+    document.getElementById("demo").innerHTML = level.filter(checkAdult);
+
+    function checkAdult(level) {
+        return level > 0;
+    }
+</script>
+
+</body>
+
+</html>
